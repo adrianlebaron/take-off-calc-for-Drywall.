@@ -1,3 +1,7 @@
+import React from 'react';
+import CalculatorKey from "./calculatorKey";
+import CalculatorDisplay from "./calculatorDisplay";
+import AutoScalingText from "./autoScalingText"
 class Calculator extends React.Component {
   state = {
     value: null,
@@ -189,8 +193,5 @@ class Calculator extends React.Component {
   }
 }
 
-ReactDOM.render(
-  <Calculator/>,
-  document.getElementById('app')
-)
+
 export default Calculator;

@@ -1,3 +1,7 @@
+import React from 'react';
+
+const PointTarget = ReactPoint.PointTarget
+
 class CalculatorKey extends React.Component {
   render() {
     const { onPress, className, ...props } = this.props
@@ -17,3 +21,4 @@ const CalculatorOperations = {
   '-': (prevValue, nextValue) => prevValue - nextValue,
   '=': (prevValue, nextValue) => nextValue
 }
+export default CalculatorKey;

@@ -1,3 +1,5 @@
+import React from 'react';
+import AutoScalingText from './autoScalingText'
 class CalculatorDisplay extends React.Component {
   render() {
     const { value, ...props } = this.props
@@ -21,4 +23,6 @@ class CalculatorDisplay extends React.Component {
     )
   }
 }
+export default CalculatorDisplay;
+
 

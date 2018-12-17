@@ -1,4 +1,6 @@
-const PointTarget = ReactPoint.PointTarget
+import React from 'react';
+
+
 
 class AutoScalingText extends React.Component {
   state = {
@@ -37,4 +39,5 @@ class AutoScalingText extends React.Component {
     )
   }
 }
+export default AutoScalingText;
 
